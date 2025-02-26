@@ -45,7 +45,7 @@ jobs:
     - name: Connect to Remote Server
       uses: appleboy/ssh-action@master
       with:
-        host: 35.171.140.25
+        host: 35.171.140.253
         username: ubuntu
         key: ${{ env.PEM_KEY }}
         port: 22
