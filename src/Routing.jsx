@@ -109,25 +109,7 @@ function Routing() {
           </>
         ) : (
           <>
-            <Route path="/" element={<AppLayout />}>
-              <Route index element={<Main />} />
-            </Route>
          
-
-
-
-            <Route path=":fisrtSegment" element={<AppLayout />}>
-              <Route index element={<Main />} />
-            </Route>
-            <Route path=':fisrtSegment/king' element={<King />} />
-            <Route path=':fisrtSegment/fish' element={<Fish />} />
-            <Route path=':fisrtSegment/bigmax' element={<Bigmax />} />
-
-            <Route path='/king' element={<King />} />
-            <Route path='/fish' element={<Fish />} />
-            <Route path='/bigmax' element={<Bigmax />} />
-
-
           </>
         )}
       </Routes>
